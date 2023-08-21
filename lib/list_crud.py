@@ -1,9 +1,16 @@
 def create_an_empty_list():
     empty = []
+    print(empty)
     return empty
 
+create_an_empty_list()
+
 def create_a_list():
-    return None
+    a_list = ["Tom", "Dick", "Harry", "Moby"]
+    print(a_list)
+    return (a_list)
+
+create_a_list()
 
 def add_element_to_end_of_list(l, element):
     return None
