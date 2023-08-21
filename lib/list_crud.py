@@ -44,8 +44,13 @@ def remove_element_from_start_of_list(list):
 
 remove_element_from_end_of_list(  list = [1, 2, 3, 4])
 
-def retrieve_first_element_from_list(l):
-    return None
+def retrieve_first_element_from_list(list):
+    list = [1, 2, 3, 4]
+    element =list[0]
+    print(element)
+    return(element)
+
+retrieve_first_element_from_list([1, 2, 3, 4])
 
 def retrieve_element_from_index(l, index):
     return None
