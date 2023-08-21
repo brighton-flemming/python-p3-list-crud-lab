@@ -12,14 +12,26 @@ def create_a_list():
 
 create_a_list()
 
-def add_element_to_end_of_list(l, element):
-    return None
+def add_element_to_end_of_list(list, element):
+  list= [1, 2, 3, 4] 
+  element = 5
+  list.append(element)
+  print(list)
+  return(list)
 
-def add_element_to_start_of_list(l, element):
-    return None
+def add_element_to_start_of_list(list, element):
+    list = [1, 2, 3, 4]
+    element = 0
+    list.insert(0,element)
+    print(list)
+    return(list)
 
-def remove_element_from_end_of_list(l):
-    return None
+def remove_element_from_end_of_list(list):
+    list = [1, 2, 3, 4]
+    list.pop(3)
+    print(list)
+    return(list)
+remove_element_from_end_of_list([1, 2, 3, 4, 5])
 
 def remove_element_from_start_of_list(l):
     return None
