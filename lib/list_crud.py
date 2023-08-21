@@ -60,5 +60,10 @@ def retrieve_element_from_index(list, index):
 
 retrieve_element_from_index([1, 2, 3, 4], 1)
 
-def retrieve_last_element_from_list(l):
-    return None
+def retrieve_last_element_from_list(list):
+    list = [1, 2, 3, 4]
+    element = list[3]
+    print(element)
+    return(element)
+
+retrieve_first_element_from_list([1, 2, 3, 4])
