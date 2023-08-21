@@ -19,12 +19,15 @@ def add_element_to_end_of_list(list, element):
   print(list)
   return(list)
 
+add_element_to_end_of_list([1, 2, 3, 4], 5)
+
 def add_element_to_start_of_list(list, element):
     list = [1, 2, 3, 4]
     element = 0
     list.insert(0,element)
     print(list)
     return(list)
+add_element_to_start_of_list([1, 2, 3, 4], 0)
 
 def remove_element_from_end_of_list(list):
     list = [1, 2, 3, 4]
