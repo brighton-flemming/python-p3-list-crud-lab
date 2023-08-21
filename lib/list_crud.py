@@ -1,5 +1,6 @@
 def create_an_empty_list():
-    return None
+    empty = []
+    return empty
 
 def create_a_list():
     return None
